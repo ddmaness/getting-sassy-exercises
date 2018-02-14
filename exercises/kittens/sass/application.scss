@@ -1,145 +1,191 @@
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
   background: #EEE4DA;
   font-family: 'Didact Gothic', sans-serif;
-  margin: 0; }
+  margin: 0;
+}
 
 a {
-  color: #506F8E; }
+  color: #506F8E;
+}
 
 a:hover {
-  color: #AEA4AD; }
+  color: #AEA4AD;
+}
 
 .clearfix:after {
   content: "";
   display: table;
-  clear: both; }
+  clear: both;
+}
 
 .wrapper {
   margin: 0 auto;
-  width: 1200px; }
+  width: 1200px;
+}
 
 .header {
   background: #AEA4AD;
   border-bottom: 10px solid #fff;
-  padding: 1em; }
-  .header h1 {
+  padding: 1em;
+
+  h1 {
     color: #506F8E;
     font-family: 'Ribeye Marrow', cursive;
     font-size: 3em;
     margin: .25em 0;
-    text-shadow: 1px 1px 0px #D9D0CB; }
-  .header nav {
-    float: right; }
-    .header nav ul {
+    text-shadow: 1px 1px 0px #D9D0CB;
+  }
+
+  nav {
+    float: right;
+
+    ul {
       list-style-type: none;
-      padding: 0; }
-    .header nav li {
-      display: inline-block; }
-    .header nav a {
+      padding: 0;
+    }
+    
+    li {
+      display: inline-block;
+    }
+    a {
       background: #506F8E;
       border-radius: 20px;
       color: #EEE4DA;
       display: block;
       margin-right: 1em;
       padding: .5em 1em;
-      text-decoration: none; }
-      .header nav a:hover {
+      text-decoration: none;
+
+      &:hover {
         -webkit-transform: scale(1.1);
         -moz-transform: scale(1.1);
         -o-transform: scale(1.1);
         -ms-transform: scale(1.1);
-        transform: scale(1.1); }
+        transform: scale(1.1);
+      }
+    }
+  }
+}
 
 .footer {
   background: #506F8E;
-  border-top: 10px solid #EEE4DA; }
-  .footer .copy {
+  border-top: 10px solid #EEE4DA;
+
+  .copy {
     color: #D9D0CB;
     float: right;
-    margin: 1em 0; }
-  .footer nav {
-    float: left; }
-    .footer nav ul {
+    margin: 1em 0;
+  }
+
+  nav {
+    float: left;
+
+    ul {
       list-style-type: none;
       margin: 0;
-      padding: 0; }
-    .footer nav li {
-      display: inline-block; }
-    .footer nav a {
+      padding: 0;
+    }
+    li {
+      display: inline-block;
+    }
+    a {
       color: #AEA4AD;
       display: block;
-      padding: 1em; }
-      .footer nav a:hover {
-        color: #D9D0CB; }
+      padding: 1em;
+
+      &:hover {
+        color: #D9D0CB
+      }
+    }
+  }
+}
 
 .kittens {
   list-style-type: none;
-  padding: 0; }
-  .kittens li {
+  padding: 0;
+
+  li{
     border-radius: 20px;
     float: left;
     margin-bottom: 2em;
     text-align: center;
-    width: 300px; }
-    .kittens li:hover {
+    width: 300px;
+
+    &:hover {
       -webkit-transform: scale(1.1);
       -moz-transform: scale(1.1);
       -o-transform: scale(1.1);
       -ms-transform: scale(1.1);
-      transform: scale(1.1); }
-    .kittens li img {
+      transform: scale(1.1);
+    }
+    img {
       border: 10px solid #fff;
-      border-radius: 20px; }
-    .kittens li label {
-      font-weight: bold; }
+      border-radius: 20px;
+    }
+    label {
+      font-weight: bold;
+    }
+  }
+}
+
 
 .subcontent {
   background: #fff;
-  padding: 2em 0 3em; }
+  padding: 2em 0 3em;
+}
 
 .search {
-  float: right; }
+  float: right;
+}
 
 .news, .events, .location {
   float: left;
   padding-right: 4em;
-  width: 40%; }
+  width: 40%;
+}
 
 .news ul, .events ul {
   list-style-type: none;
-  padding: 0; }
+  padding: 0;
+}
 
 .news li, .events li {
   border-bottom: 1px dotted #EEE4DA;
   margin-bottom: 1em;
   padding-bottom: 1em;
-  padding-right: 1em; }
+  padding-right: 1em;
+}
 
 .news li a, .events li a {
   font-size: 1.25em;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .news .btn, .events .btn {
   color: #AEA4AD;
   font-size: 1em;
   font-weight: bold;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .news .btn:hover, .events .btn:hover {
-  color: #506F8E; }
+  color: #506F8E;
+}
 
 .location {
   padding-right: 0;
-  width: 20%; }
-  .location dt {
+  width: 20%;
+  dt {
     color: #506F8E;
-    font-weight: bold; }
-  .location dd {
-    margin: 0; }
-
-/*# sourceMappingURL=application.css.map */
+    font-weight: bold;  
+  }
+  dd {
+    margin: 0;
+  }
+}
